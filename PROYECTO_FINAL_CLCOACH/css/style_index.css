@@ -1,0 +1,198 @@
+/*Se hace siempre para que quede todo pegado
+se hace para pegarlo del borde*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+header {
+  width: 100%;
+  height: 650px;
+  background-image: url(../images/pexels-scott-webb-28054.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /*si la imagen es mas grande oculta*/
+  overflow: hidden;
+  color: goldenrod;
+  text-align: center;
+}
+
+header .textos {
+  margin-top: 160px;
+}
+
+header .titulo {
+  font-size: 70px;
+}
+
+header .subtitulo {
+  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: lightyellow;
+}
+
+header .boton {
+  padding: 20px;
+  width: 130px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: bisque;
+  text-decoration: none; /*quita la linea que trae por defectp*/
+  font-size: 20px;
+}
+
+header .boton:hover {
+  color: goldenrod;
+  /*Para bajar la transparencia
+  se para en el color y la linea horizo
+  se  baja */
+  background-color: rgba(211, 211, 211, 0.342);
+}
+
+.sesgo_abajo {
+  /* traer las cosas al frente o llevarlas al fondo con numero negativo*/
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 35vh 100vw;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+nav {
+  /*queda a la derecha*/
+  text-align: right;
+  padding: 10px 70px 0 0;
+  margin-top: 20px;
+}
+
+nav a {
+  color: rgb(236, 224, 167);
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.contenedor2 {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto; /*lo pone en el medio*/
+  overflow: hidden; /*si el texto es mas grande se oculta*/
+  padding: 52px;
+}
+.sobre-nosotros {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.parrafo {
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 30px;
+  color: dimgray;
+}
+
+.acerca-de .boton {
+  display: inline-block; /*se estira como si fuera texto y no un boton*/
+  text-align: center;
+  padding: 10px;
+  width: 180px;
+  font-weight: 300;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-decoration: none; /*quita la linea de abajo*/
+  color: black;
+  background-color: darkgrey;
+  margin-bottom: 50px;
+}
+
+.acerca-de .boton:hover {
+  background-color: rgba(41, 40, 39, 0.198);
+}
+
+
+div .caja {
+  border-width: 35vh 100vw 0 0;
+  border-style: solid;
+  border-color: goldenrod black;
+}
+
+nav a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type="search"] {
+  width: 200px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  color: black;
+}
+
+.img_ppial {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.galeria {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  /*flex-wrap pone las imagenes una a unp*/
+  flex-wrap: wrap;
+}
+.imagenes {
+  width: 20%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.imagenes img {
+  width: 100%;
+  height: 100%;
+  /*object fit es para cubrir todo el contenido */
+  object-fit: cover;
+}
+.contenedor {
+  width: 100%;
+  max-width: 100%;
+  margin: auto; /*lo pone en el medio*/
+  overflow: hidden; /*si el texto es mas grande se oculta*/
+  padding: 0;
+}
+.sesgo_arriba {
+  /* traer las cosas al frente o llevarlas al fondo con numero negativo*/
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 35vh 100vw 0 0;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}

@@ -1,0 +1,72 @@
+
+body {
+	background: black;
+	}
+
+
+.Div {
+	color: tomato;
+	background-color: lightgrey;
+	text-shadow: 1px;
+	}
+
+p {
+	color: white;
+	}
+
+h1 {
+	color: tomato;
+	}
+
+h3 {
+	color: rgb(232,195,51);
+	}
+
+ul {
+	color:rgb(232,195,51);
+	font-size: large;
+	}
+
+.tables {
+	color: tomato;
+	border-collapse: separate;
+    text-indent: initial;
+	box-shadow: inset;
+}
+
+td {
+	color: tomato;
+}
+
+h4 {
+	color: tomato;
+	background-color: antiquewhite;
+	padding: 0px;
+	font-size: black;
+}
+
+tr {
+	color: white;
+}
+
+.Nutricion {
+	color: beige;
+}
+
+.Entrenamiento {
+	color: beige;
+}
+
+.playlist {
+	color: beige;
+}
+
+a {
+	color: rgb(232,195,51);
+
+}
+
+embed {
+	size: 300%;
+  
+	}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: auto;
+  height: 200px;
+  background: black;
+}
+header .boton {
+  padding: 20px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: rgba(255, 228, 196, 0.582);
+  text-decoration: none; /*quita la linea que trae por defectp*/
+  font-size: 20px;
+}
+.logo {
+  width: 60%;
+  height: 60%;
+  background-image: url(../images/Logo_sin_fondo.png);
+}
+
+nav {
+  /*queda a la derecha*/
+  text-align: right;
+  padding: 10px 70px 0 0;
+  margin-top: 20px;
+}
+
+nav a {
+  color: rgb(236, 224, 167);
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type="search"] {
+  width: 200px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  color: black;
+}
+
+.sobre-nosotros {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.parrafo {
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 30px;
+  color: dimgray;
+}
+
+.acerca-de .boton {
+  display: inline-block; /*se estira como si fuera texto y no un boton*/
+  text-align: center;
+  padding: 10px;
+  width: 180px;
+  font-weight: 300;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-decoration: none; /*quita la linea de abajo*/
+  color: black;
+  background-color: rgba(169, 169, 169, 0.329);
+  margin-bottom: 50px;
+}
+
+.acerca-de .boton:hover {
+  background-color: rgba(41, 40, 39, 0.198);
+}
