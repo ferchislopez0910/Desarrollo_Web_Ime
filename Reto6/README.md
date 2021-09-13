@@ -1,4 +1,4 @@
-<p align="center"><img src='https://www.desarrollolibre.net/public/images/example/html/botones_material/menu-rueda.gif' alt='Banner' width=10%></p>
+<p align="center"><img src='https://www.desarrollolibre.net/public/images/example/html/botones_material/menu-rueda.gif' alt='Banner' width=100%></p>
 
 # Semana 6: Selectores HTML + CSS3
 
